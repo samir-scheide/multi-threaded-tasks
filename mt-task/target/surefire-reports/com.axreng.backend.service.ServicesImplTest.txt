@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.axreng.backend.service.ServicesImplTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 0.431 s <<< FAILURE! - in com.axreng.backend.service.ServicesImplTest
+testGetCrawlResults_success  Time elapsed: 0.43 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.axreng.backend.common.Environment
+	at com.axreng.backend.service.ServicesImplTest.setUp(ServicesImplTest.java:29)
+
+testGetCrawlResults_daoThrowsException  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.axreng.backend.common.Environment
+	at com.axreng.backend.service.ServicesImplTest.setUp(ServicesImplTest.java:29)
+
+testGetCrawlResults_noResultFound  Time elapsed: 0 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class com.axreng.backend.common.Environment
+	at com.axreng.backend.service.ServicesImplTest.setUp(ServicesImplTest.java:29)
+
